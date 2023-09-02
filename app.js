@@ -9,7 +9,6 @@ void async function startApp() {
     try {
         const server = Hapi.server({
             port: process.env.PORT || 8080,
-            host: process.env.HOST || 'localhost',
             compression: false,
             routes: { files: { relativeTo: Path.join(__dirname, 'public') } }
         });
