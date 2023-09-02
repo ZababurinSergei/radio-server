@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(73, 153, 100)
+    background-color: rgb(187 151 222 / 57%);
 }
 
 #main {
@@ -10,7 +10,7 @@ body {
     margin: 10% 30% 0% 30%;
     border: 2px solid black;
     border-radius: 25px;
-    background-color: rgb(156, 156, 156);
+    background-color: rgb(231 215 215 / 23%);
 }
 
 #title {
